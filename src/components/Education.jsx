@@ -1,40 +1,36 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FaBriefcase } from 'react-icons/fa';
+import { FaUniversity } from 'react-icons/fa';
 import { Tooltip } from 'react-tooltip';
 import 'react-tooltip/dist/react-tooltip.css'; // ✨
 
-const experiences = [
+const educationData = [
   {
-    company: "Reaidy.io",
-    role: "Software Developer Intern",
-    period: "Jan 2024 - Apr 2024",
-    description: "Built scalable web apps using React, Node.js, and MongoDB.",
+    institution: "Gitam University",
+    degree: "Bachelor of Technology (B.Tech) in Computer Science Engineering",
+    period: "2022 - Present",
+    CGPA:"8.02",
+    description: "A comprehensive program that covers core computer science subjects, including algorithms, data structures, and machine learning.",
   },
   {
-    company: "SayHey",
-    role: "AI Platform Developer",
-    period: "Jan 2022 - Apr 2022",
-    description: "Built AI chatbots and NLP-driven customer engagement solutions.", 
+    institution: "Narayana Junior College ",
+    degree: "Intermediate Education",
+    period: "2020-2022",
+    CGPA:"92.8%",
+    description: "Completed Intermediate with a focus on Mathematics and Science, building a strong foundation in problem-solving and critical thinking.",
   },
   {
-    company: "ZenithZap",
-    role: "Web Developer and AI Chatbot Develper",
-    period: "Sep 2022 - Dec 2022",
-    description: "Designed interactive websites and landing pages with animations.",
-  },
-  {
-
-    company: "CureHouzz",
-    role: "Full Stack Intern",
-    period: "May 2023 - Aug 2023",
-    description: "Developed real-time healthcare platforms and optimized APIs.",
+    institution: "Kendriya Vidyalaya No.2 SriVijaya Nagar ",
+    degree: "Secondary School",
+    period: "2020 ",
+    CGPA:"86.2%",
+    description: "Completed high school with a focus on Mathematics and Science, building a strong foundation in problem-solving and critical thinking.",
   },
 ];
 
-const Experience = () => {
+const Education = () => {
   return (
-    <section id="experience" className="relative bg-gradient-to-b from-black via-gray-900 to-black text-white min-h-screen flex flex-col justify-center items-center px-4 py-20">
+    <section id="education" className="relative bg-gradient-to-b from-black via-gray-900 to-black text-white min-h-screen flex flex-col justify-center items-center px-4 py-20">
       
       {/* Heading */}
       <motion.h2
@@ -43,7 +39,7 @@ const Experience = () => {
         transition={{ duration: 0.8 }}
         className="text-5xl md:text-6xl font-extrabold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-purple-600"
       >
-        Experience
+        Education
       </motion.h2>
 
       {/* Timeline Line */}
@@ -51,7 +47,7 @@ const Experience = () => {
         <div className="absolute left-1/2 transform -translate-x-1/2 h-full border-l-2 border-cyan-400 opacity-20"></div>
 
         <div className="flex flex-col space-y-20">
-          {experiences.map((exp, index) => {
+          {educationData.map((edu, index) => {
             const isLeft = index % 2 === 0;
             return (
               <motion.div
@@ -68,15 +64,16 @@ const Experience = () => {
                 {/* Card */}
                 <div
                   data-tooltip-id={`tooltip-${index}`}
-                  data-tooltip-content={exp.description}
+                  data-tooltip-content={edu.description}
                   className={`w-[calc(50%-2rem)] p-6 rounded-2xl bg-white/10 backdrop-blur-md shadow-lg border border-cyan-400/30 hover:shadow-cyan-400/30 hover:scale-105 transform transition cursor-pointer`}
                 >
                   <div className="flex items-center gap-4 mb-2">
-                    <FaBriefcase className="text-cyan-400 text-2xl" />
-                    <h3 className="text-xl md:text-2xl font-semibold">{exp.company}</h3>
+                    <FaUniversity className="text-cyan-400 text-2xl" />
+                    <h3 className="text-xl md:text-2xl font-semibold">{edu.institution}</h3>
                   </div>
-                  <p className="text-gray-300 text-lg">{exp.role}</p>
-                  <p className="text-gray-400 text-sm mt-2">{exp.period}</p>
+                  <p className="text-gray-300 text-lg">{edu.degree}</p>
+                  <p className="text-gray-300 text-lg">{edu.CGPA}</p>
+                  <p className="text-gray-400 text-sm mt-2">{edu.period}</p>
                 </div>
 
                 {/* Tooltip for each */}
@@ -90,4 +87,4 @@ const Experience = () => {
   );
 };
 
-export default Experience;
+export default Education;

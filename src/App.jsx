@@ -8,6 +8,7 @@ import Experience from './components/Experience';
 import Certifications from './components/Certifications';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Education from './components/Education';
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
@@ -20,7 +21,7 @@ function App() {
         <Navbar toggleDarkMode={toggleDarkMode} /> {/* Pass toggle if you want theme button */}
 
         {/* Background and Global Styles */}
-        <div className="pt-24 min-h-screen text-black dark:text-white transition-colors duration-500 bg-gradient-to-b from-gray-900 to-black">
+        <div className="pt-0 min-h-screen text-black dark:text-white transition-colors duration-500 bg-gradient-to-b from-gray-900 to-black">
 
           {/* Sections */}
           <section id="home">
@@ -29,6 +30,9 @@ function App() {
 
           <section id="about">
             <About />
+          </section>
+          <section id="education">
+            <Education />
           </section>
 
           <section id="skills">

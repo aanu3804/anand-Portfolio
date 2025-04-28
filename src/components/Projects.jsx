@@ -23,7 +23,7 @@ const Projects = () => {
 
   return (
     <section id="projects" className="bg-gradient-to-b from-gray-900 to-black text-white min-h-screen flex flex-col justify-center items-center px-6 py-20">
-      <h2 className="text-5xl font-bold mb-12 text-center">Projects</h2>
+      <h2 className="text-5xl font-bold mb-14 text-center bg-gradient-to-r from-sky-400 via-purple-400 to-purple-600 bg-clip-text text-transparent tracking-tight">Projects</h2>
 
       <div className="grid md:grid-cols-3 gap-8 w-full max-w-6xl">
         {projects.map((project, index) => (

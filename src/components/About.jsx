@@ -27,7 +27,7 @@ const About = () => {
       </motion.p>
       <div className="flex justify-center mt-8">
   <a
-    href="/src/assets/Resume.pdf"
+    href="/public/Resume.pdf"
     download
     className="inline-flex items-center gap-2 bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-6 py-3 rounded-full text-lg font-semibold shadow-md hover:shadow-2xl transition-all duration-300"
   >

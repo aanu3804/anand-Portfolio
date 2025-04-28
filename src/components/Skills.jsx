@@ -4,7 +4,7 @@ import Tilt from "react-parallax-tilt";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaJava, FaPython } from "react-icons/fa";
 import { SiMongodb, SiTailwindcss, SiFirebase, SiExpress } from "react-icons/si";
 import { CgCPlusPlus } from "react-icons/cg";
-import ParticlesBackground from "./ParticlesBackground";
+
 
 const skillsMain = [
   { name: "HTML", icon: <FaHtml5 size={40} color="#f06529" />, level: 90 },
@@ -29,7 +29,7 @@ const Skills = () => {
       id="skills"
       className="relative bg-gradient-to-b from-black to-gray-900 text-white min-h-screen flex flex-col justify-center items-center px-6 py-20 overflow-hidden"
     >
-      <ParticlesBackground />
+      
 
       <motion.h2
         initial={{ opacity: 0, y: -50 }}
@@ -107,7 +107,7 @@ const Skills = () => {
                       <motion.div
                         initial={{ width: 0 }}
                         animate={{ width: `${skill.level}%` }}
-                        transition={{ duration: 0.5 }}
+                        transition={{ type: "spring", duration: 0.7 }}
                         className="bg-gradient-to-r from-cyan-400 to-blue-600 h-2.5 rounded-full"
                       />
                     </div>
