@@ -6,7 +6,6 @@ const Navbar = () => {
       <h1 ><a href="#home" className="text-white text-2xl font-bold">Anand Sai Lattala</a></h1>
 
       <ul className="flex gap-8 text-white font-semibold text-lg">
-      <li><a href="#home" className="hover:text-blue-400 transition">Home</a></li>
         <li><a href="#about" className="hover:text-blue-400 transition">About</a></li>
         <li><a href="#skills" className="hover:text-blue-400 transition">Skills</a></li>
         <li><a href="#projects" className="hover:text-blue-400 transition">Projects</a></li>
