@@ -8,26 +8,26 @@ const experiences = [
   {
     company: "Reaidy.io",
     role: "Software Developer Intern",
-    period: "Jan 2024 - Apr 2024",
+    period: "Aug 2024 - May 2025",
     description: "Built scalable web apps using React, Node.js, and MongoDB.",
   },
   {
     company: "SayHey",
     role: "AI Platform Developer",
-    period: "Jan 2022 - Apr 2022",
-    description: "Built AI chatbots and NLP-driven customer engagement solutions.", 
+    period: "May 2025 - Present",
+    description: "Built AI-Driven Model to Summarize the conversation.", 
   },
   {
     company: "ZenithZap",
     role: "Web Developer and AI Chatbot Develper",
-    period: "Sep 2022 - Dec 2022",
+    period: "May 2025 - Present",
     description: "Designed interactive websites and landing pages with animations.",
   },
   {
 
     company: "CureHouzz",
     role: "Full Stack Intern",
-    period: "May 2023 - Aug 2023",
+    period: "Jan 2025 - Apr 2025",
     description: "Developed real-time healthcare platforms and optimized APIs.",
   },
 ];
