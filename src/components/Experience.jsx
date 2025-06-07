@@ -8,27 +8,27 @@ const experiences = [
   {
     company: "Reaidy.io",
     role: "Software Developer Intern",
-    period: "Aug 2024 - May 2025",
-    description: "Built scalable web apps using React, Node.js, and MongoDB.",
+    period: "Aug 2024 - June 2025",
+    description: "Built Advanced proxy Detection using React and Face-api.js models.This is used for Detecting the proxy in Online interviews. This Feature is used by more than 1000+ users in Reaidy.io ",
   },
   {
     company: "SayHey",
     role: "AI Platform Developer",
     period: "May 2025 - Present",
-    description: "Built AI-Driven Model to Summarize the conversation.", 
+    description: "Built AI-Driven Model to Diarize,Summarize,Recommendation and Rating to the Listener from the conversation.", 
   },
   {
     company: "ZenithZap",
     role: "Web Developer and AI Chatbot Develper",
     period: "May 2025 - Present",
-    description: "Designed interactive websites and landing pages with animations.",
+    description: "Designed interactive websites and landing pages with animations to the Power-Induced Beverages company ZenithZap.",
   },
   {
 
     company: "CureHouzz",
     role: "Full Stack Intern",
     period: "Jan 2025 - Apr 2025",
-    description: "Developed real-time healthcare platforms and optimized APIs.",
+    description: "Developed Full stack Website for real-time healthcare platforms and optimized APIs.",
   },
 ];
 
