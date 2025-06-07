@@ -37,7 +37,7 @@ const Contact = () => {
 
         {/* Email Button */}
         <motion.a
-          href="mailto:your.email@example.com"
+          href="mailto:anandsai2004@gmail.com"
           whileHover={{ scale: 1.05, boxShadow: "0 4px 15px rgba(76, 175, 80, 0.4)" }}
           className="px-8 py-4 bg-green-600 hover:bg-green-700 text-white rounded-lg shadow-lg hover:shadow-2xl transition duration-300 ease-in-out text-lg font-semibold"
         >
