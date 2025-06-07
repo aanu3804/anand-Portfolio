@@ -34,7 +34,7 @@ const Contact = () => {
       from_email: formData.email,
       subject: formData.subject,
       message: formData.message,
-      to_email: "ntrdannandan555@gmail.com",
+      to_email: "anandsai2004@gmail.com",
     };
 
     emailjs
@@ -72,12 +72,12 @@ const Contact = () => {
             LinkedIn
           </button>
         </a>
-        <a href="mailto:ntrdannandan555@gmail.com">
+        <a href="mailto:anandsai2004@gmail.com">
           <button className="bg-green-600 text-white px-6 py-2 rounded-md hover:bg-green-700 transition">
             Email
           </button>
         </a>
-        <a href="tel:+918500307265">
+        <a href="tel:+919110388960">
           <button className="bg-orange-500 text-white px-6 py-2 rounded-md hover:bg-orange-600 transition">
             Phone
           </button>
