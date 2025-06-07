@@ -13,7 +13,7 @@ const experiences = [
   },
   {
     company: "SayHey",
-    role: "AI Platform Developer",
+    role: "AI Model Developer",
     period: "May 2025 - Present",
     description: "Built AI-Driven Model to Diarize,Summarize,Recommendation and Rating to the Listener from the conversation.", 
   },
