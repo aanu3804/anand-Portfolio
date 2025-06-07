@@ -7,7 +7,7 @@ import 'react-tooltip/dist/react-tooltip.css'; // ✨
 const educationData = [
   {
     institution: "Gitam University",
-    degree: "Bachelor of Technology (B.Tech) in Computer Science Engineering",
+    degree: "Bachelor of Technology (B.Tech) Computer Science Engineering",
     period: "2022 - Present",
     CGPA:"8.02",
     description: "A comprehensive program that covers core computer science subjects, including algorithms, data structures, and machine learning.",
