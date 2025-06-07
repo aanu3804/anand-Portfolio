@@ -12,13 +12,13 @@ const skillsMain = [
   { name: "JavaScript", icon: <FaJs size={40} color="#f0db4f" />, level: 80 },
   { name: "React", icon: <FaReact size={40} color="#61dafb" />, level: 85 },
   { name: "Node.js", icon: <FaNodeJs size={40} color="#68a063" />, level: 75 },
-  { name: "MongoDB", icon: <SiMongodb size={40} color="#4db33d" />, level: 70 },
-  { name: "TailwindCSS", icon: <SiTailwindcss size={40} color="#38bdf8" />, level: 80 },
+  { name: "MongoDB", icon: <SiMongodb size={40} color="#4db33d" />, level: 55 },
+  { name: "TailwindCSS", icon: <SiTailwindcss size={40} color="#38bdf8" />, level: 70 },
   { name: "Firebase", icon: <SiFirebase size={40} color="#ffcb2b" />, level: 65 },
   { name: "Express.js", icon: <SiExpress size={40} color="#ffffff" />, level: 70 },
   { name: "C", icon: <CgCPlusPlus size={40} color="#00599C" />, level: 90 },
   { name: "Python", icon: <FaPython size={40} color="#3776AB" />, level: 90 },
-  { name: "Java", icon: <FaJava size={40} color="#f89820" />, level: 60 },
+  { name: "Java", icon: <FaJava size={40} color="#f89820" />, level: 65 },
 ];
 
 const Skills = () => {
