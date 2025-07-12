@@ -39,13 +39,13 @@ const Contact = () => {
 
     emailjs
       .send(
-        "service_g75c4vv",
-        "template_y66kwgv",
+        "service_5i2rec3",
+        "template_kxpue2p",
         emailParams,
-        "TAaM-8S0e6GrGpLpS"
+        "rpk3K3rsSk9eIZYoV"
       )
       .then(() => {
-        alert("Message sent successfully!");
+        alert("Message sent successfully to Mr.Anand!. He'll contact you as soon as possible.");
         setFormData({ email: "", subject: "", message: "" });
       })
       .catch((error) => {
@@ -77,12 +77,16 @@ const Contact = () => {
             Email
           </button>
         </a>
-        <a href="tel:+919110388960">
-          <button className="bg-orange-500 text-white px-6 py-2 rounded-md hover:bg-orange-600 transition">
-            Phone
-          </button>
-        </a>
-      </div>
+                 <a href="tel:+919110388960">
+           <button className="bg-orange-500 text-white px-6 py-2 rounded-md hover:bg-orange-600 transition">
+             Phone
+           </button>
+         </a>
+       </div>
+       
+       <h3 className="text-4xl text-center font-bold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-purple-600">
+         Send a Message
+       </h3>
 
       {/* Form */}
       <form onSubmit={handleSubmit} className="space-y-6">

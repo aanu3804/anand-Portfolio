@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { PiCertificateLight } from 'react-icons/pi';
-import {  SiCoursera, SiUdemy } from 'react-icons/si';
+import {  SiCoursera, SiUdemy, SiGoogle } from 'react-icons/si';
 import { PiStudentLight } from 'react-icons/pi'; // Generic icon for NPT
 
 const Certifications = () => {
@@ -20,6 +20,11 @@ const Certifications = () => {
       name: 'Full Stack Web Development Bootcamp – Udemy',
       link: 'https://udemy.com',
       badge: <SiUdemy className="text-purple-500 text-3xl" />,
+    },
+    {
+      name: 'Google AI-ML Virtual Internship',
+      link: 'https://drive.google.com/file/d/1wl_5bgLWOQMbJwSkGn43qhVNUthG8I9d/view',
+      badge: <SiGoogle className="text-red-500 text-3xl" />,
     },
   ];
   

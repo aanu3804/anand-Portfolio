@@ -112,18 +112,24 @@ const Home = () => {
 
       {/* Scroll Down Arrow */}
       <motion.div
-  initial={{ opacity: 0 }}
-  animate={{ opacity: 1, y: [0, 15, 0] }}
-  transition={{ repeat: Infinity, duration: 2 }}
-  className="absolute bottom-6 left-1/2 transform -translate-x-1/2"
->
-  <a
-    href="#about"
-    className="cursor-pointer text-cyan-400 text-4xl hover:text-blue-500 transition duration-300"
-  >
-    <BsChevronDoubleDown />
-  </a>
-</motion.div>
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1, y: [0, 15, 0] }}
+        transition={{ repeat: Infinity, duration: 2 }}
+        className="absolute bottom-6 left-1/2 transform -translate-x-1/2 z-20"
+      >
+        <button
+          onClick={() => {
+            document.getElementById('about')?.scrollIntoView({ 
+              behavior: 'smooth',
+              block: 'start'
+            });
+          }}
+          className="cursor-pointer text-cyan-400 text-4xl hover:text-blue-500 transition duration-300 hover:scale-110"
+          aria-label="Scroll to About section"
+        >
+          <BsChevronDoubleDown />
+        </button>
+      </motion.div>
 
     </div>
   );
