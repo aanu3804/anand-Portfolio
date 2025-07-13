@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { PiCertificateLight } from 'react-icons/pi';
-import {  SiCoursera, SiUdemy, SiGoogle } from 'react-icons/si';
+import {  SiCoursera, SiUdemy, SiGoogle, SiOpencv  } from 'react-icons/si';
 import { PiStudentLight } from 'react-icons/pi'; // Generic icon for NPT
 
 const Certifications = () => {
@@ -25,6 +25,11 @@ const Certifications = () => {
       name: 'Google AI-ML Virtual Internship',
       link: 'https://drive.google.com/file/d/1wl_5bgLWOQMbJwSkGn43qhVNUthG8I9d/view',
       badge: <SiGoogle className="text-red-500 text-3xl" />,
+    },
+    {
+      name: 'Computer Graphics and Vision Summer School - IIT Delhi',
+      link: 'https://drive.google.com/file/d/1rPCJiT7l-YDHLPw3AsGxzK7vlTgzFoz3/view?usp=sharing',
+      badge: <SiOpencv className="text-red-500 text-3xl" />,
     },
   ];
   

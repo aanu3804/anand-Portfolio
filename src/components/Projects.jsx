@@ -20,7 +20,7 @@ const Projects = () => {
       github: "#",
       description: "An advanced proxy detection system using face-api.min.js and JavaScript, achieving accurate detection of dual voices, unauthorized appearances, and eye gaze patterns.",
       technologies: ["JavaScript", "Face-API", "WebRTC", "AI/ML"],
-      image: "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      image: "https://images.unsplash.com/photo-1555949963-ff9fe0c8aa70eb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
       category: "AI/ML"
     },
     {
@@ -29,7 +29,7 @@ const Projects = () => {
       github: "#",
       description: "Serene is an Emotional Support chatbot which helps users to act as an emotional supporter. It has features like Text Input, Voice Input and Output will be in the form of Both Text and Voice.",
       technologies: ["React", "OpenAI", "Speech Recognition", "Web Speech API"],
-      image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
+      image: "https://images.unsplash.com/photo-1516321318423-f06f8aa5e504b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
       category: "AI/ML"
     },
     {

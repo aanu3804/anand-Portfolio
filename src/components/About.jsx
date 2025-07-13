@@ -12,7 +12,7 @@ const About = () => {
   ];
 
   const techStack = [
-    { name: "React", icon: <SiReact className="text-blue-400" /> },
+    { name: "MERN Stack", icon: <SiReact className="text-blue-400" /> },
     { name: "Python", icon: <SiPython className="text-blue-500" /> },
     { name: "JavaScript", icon: <SiJavascript className="text-yellow-400" /> },
     { name: "TensorFlow", icon: <SiTensorflow className="text-orange-400" /> },
@@ -101,7 +101,7 @@ const About = () => {
                 className="group inline-flex items-center gap-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:from-cyan-600 hover:to-blue-700"
               >
                 <FaDownload className="group-hover:animate-bounce" />
-                Download Resume
+                View Resume
               </a>
             </motion.div>
 
