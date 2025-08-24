@@ -6,6 +6,12 @@ import 'react-tooltip/dist/react-tooltip.css'; // ✨
 
 const experiences = [
   {
+    company: "Ccube Netvix",
+    role: "Cheif Technology Officer",
+    period: "Aug 2025 - Present",
+    
+  },
+  {
     company: "Reaidy.io",
     role: "Software Developer Intern",
     period: "Aug 2024 - June 2025",
