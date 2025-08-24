@@ -12,9 +12,14 @@ const Certifications = () => {
       badge: <PiStudentLight className="text-yellow-400 text-3xl" />, // Use Student icon
     },
     {
-      name: 'Python Data Structures – Coursera',
-      link: 'https://www.coursera.org/account/accomplishments/verify/GBZLMQDT9WKG?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course',
-      badge: <SiCoursera className="text-blue-400 text-3xl" />,
+      name: 'Amazon Machine learning Summer School 2025 - Ongoing',
+      link: '',
+      badge: <PiStudentLight className="text-yellow-400 text-3xl" />, // Use Student icon
+    },
+    {
+      name: 'Computer Graphics and Vision Summer School - IIT Delhi',
+      link: 'https://drive.google.com/file/d/1rPCJiT7l-YDHLPw3AsGxzK7vlTgzFoz3/view?usp=sharing',
+      badge: <SiOpencv className="text-red-500 text-3xl" />,
     },
     {
       name: 'Full Stack Web Development Bootcamp – Udemy',
@@ -26,10 +31,11 @@ const Certifications = () => {
       link: 'https://drive.google.com/file/d/1wl_5bgLWOQMbJwSkGn43qhVNUthG8I9d/view',
       badge: <SiGoogle className="text-red-500 text-3xl" />,
     },
+
     {
-      name: 'Computer Graphics and Vision Summer School - IIT Delhi',
-      link: 'https://drive.google.com/file/d/1rPCJiT7l-YDHLPw3AsGxzK7vlTgzFoz3/view?usp=sharing',
-      badge: <SiOpencv className="text-red-500 text-3xl" />,
+      name: 'Python Data Structures – Coursera',
+      link: 'https://www.coursera.org/account/accomplishments/verify/GBZLMQDT9WKG?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course',
+      badge: <SiCoursera className="text-blue-400 text-3xl" />,
     },
   ];
   

@@ -20,13 +20,13 @@ const experiences = [
   {
     company: "SayHey",
     role: "AI Model Developer",
-    period: "May 2025 - Present",
+    period: "May 2025 - August 2025",
     description: "Built AI-Driven Model to Diarize,Summarize,Recommendation and Rating to the Listener from the conversation.", 
   },
   {
     company: "ZenithZap",
     role: "Web Developer and AI Chatbot Develper",
-    period: "May 2025 - Present",
+    period: "May 2025 - August 2025",
     description: "Designed interactive websites and landing pages with animations to the Power-Induced Beverages company ZenithZap.",
   },
   {

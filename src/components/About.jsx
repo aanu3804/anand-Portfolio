@@ -95,7 +95,7 @@ const About = () => {
               className="flex justify-center"
             >
               <a
-                href="https://drive.google.com/file/d/14YlzKfM5cRjqgv4X-VqXKFE6THdTW0sn/view?usp=sharing"
+                href="https://drive.google.com/file/d/1pSzO4rn6f9ma4iN7FmR4nRvM39t2qvhJ/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group inline-flex items-center gap-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:from-cyan-600 hover:to-blue-700"
@@ -150,7 +150,7 @@ const About = () => {
                 transition={{ duration: 0.6, delay: 1.1 }}
                 className="bg-gradient-to-br from-purple-600/20 to-pink-600/20 backdrop-blur-sm border border-purple-500/30 rounded-xl p-4 text-center"
               >
-                <div className="text-2xl font-bold text-purple-400">4+</div>
+                <div className="text-2xl font-bold text-purple-400">5+</div>
                 <div className="text-sm text-gray-300">Certifications</div>
               </motion.div>
             </div>
