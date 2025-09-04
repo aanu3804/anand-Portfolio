@@ -7,7 +7,7 @@ import 'react-tooltip/dist/react-tooltip.css'; // ✨
 const experiences = [
   {
     company: "Ccube Netvix",
-    role: "Cheif Technology Officer",
+    role: "Chief Technology Officer",
     period: "Aug 2025 - Present",
     
   },
@@ -15,6 +15,7 @@ const experiences = [
     company: "Reaidy.io",
     role: "Software Developer Intern",
     period: "Aug 2024 - June 2025",
+  
     description: "Built Advanced proxy Detection using React and Face-api.js models.This is used for Detecting the proxy in Online interviews. This Feature is used by more than 1000+ users in Reaidy.io ",
   },
   {
