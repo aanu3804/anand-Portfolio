@@ -48,7 +48,7 @@ const Projects = () => {
       description: "AI-powered gym website providing fitness advice and tracking using ML-driven recommendations.It offers 5+ services to the users",
       technologies: ["React.js" ,"Flask", "Python", "Groq API", "node.js", "Express.js"],
       image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-      category: "FullStack"
+      category: "FullStack + AI/ML"
     },
     {
       name: "SayHey – Conversation Summarizer",
@@ -57,7 +57,7 @@ const Projects = () => {
       description: "Captures user audio, generates summaries, and analyzes emotions for therapy-like sessions. it involves 4 steps which is Diarization,STT,Summarizatio ,Progress tracking and recommendation.",
       technologies: ["FastAPI", "Python", "Groq API", "Whisper", "Gradio (Hugging face UI)"],
       image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",
-      category: "FullStack"
+      category: "AI/ML"
     },
     
   ];
