@@ -14,7 +14,7 @@ const experiences = [
   {
     company: "Reaidy.io",
     role: "Software Developer Intern",
-    period: "Aug 2024 - June 2025",
+    period: "Aug 2024 - Aug 2025",
   
     description: "Built Advanced proxy Detection using React and Face-api.js models.This is used for Detecting the proxy in Online interviews. This Feature is used by more than 1000+ users in Reaidy.io ",
   },
@@ -27,7 +27,7 @@ const experiences = [
   {
     company: "ZenithZap",
     role: "Web Developer and AI Chatbot Develper",
-    period: "May 2025 - August 2025",
+    period: "May 2025 - June 2025",
     description: "Designed interactive websites and landing pages with animations to the Power-Induced Beverages company ZenithZap.",
   },
   {
