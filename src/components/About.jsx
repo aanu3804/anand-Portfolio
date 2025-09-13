@@ -95,7 +95,7 @@ const About = () => {
               className="flex justify-center"
             >
               <a
-                href="https://drive.google.com/file/d/1pSzO4rn6f9ma4iN7FmR4nRvM39t2qvhJ/view?usp=sharing"
+                href="https://drive.google.com/file/d/1dDiRwA9hPvNdX2EYS2cyO96DRC3vZX6d/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group inline-flex items-center gap-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-105 hover:from-cyan-600 hover:to-blue-700"
