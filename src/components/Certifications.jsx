@@ -8,7 +8,7 @@ const Certifications = () => {
   const certs = [
     {
       name: 'Data Science for Engineers – NPTEL',
-      link: 'https://internalapp.nptel.ac.in/noc/Ecertificate/?q=NPTEL25CS20S43270101401236695',
+      link: 'https://drive.google.com/file/d/1YOZmdwlvyLBXa9phffWIhKot_qPhk_2n/view?usp=drivesdk',
       badge: <PiStudentLight className="text-yellow-400 text-3xl" />, // Use Student icon
     },
     {
