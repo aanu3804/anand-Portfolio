@@ -13,7 +13,7 @@ const Certifications = () => {
     },
     {
       name: 'Amazon Machine learning Summer School 2025 - Ongoing',
-      link: '',
+      link: 'https://drive.google.com/file/d/1dIkPu4r-dDdzkegW4naco59DXOxSKstd/view?usp=sharing',
       badge: <PiStudentLight className="text-yellow-400 text-3xl" />, // Use Student icon
     },
     {
